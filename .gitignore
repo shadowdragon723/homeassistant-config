@@ -1,0 +1,17 @@
+# Ignore Everything
+*
+
+# Whitelist files
+!*.yaml
+!.gitignore
+!.travis.yml
+
+# Ensure these YAML files are ignored, otherwise your secret data/credentials will leak.
+secrets.yaml
+known_devices.yaml
+gogriddy.yaml
+zone*.yaml
+alexa.yaml
+emulated_hue.yaml
+google_calendars.yaml
+proximity.yaml
